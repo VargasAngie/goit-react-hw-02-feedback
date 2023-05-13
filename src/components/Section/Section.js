@@ -1,10 +1,11 @@
 import React from "react";
+import StyledSection from "./Section.styled";
 
 const Section = ({ title, children }) => (
-  <section>
+  <StyledSection>
     <h2>{title}</h2>
     {children}
-  </section>
+  </StyledSection>
 );
 
 export default Section;
